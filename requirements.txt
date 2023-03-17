@@ -1,0 +1,10 @@
+numpy
+fastapi[all]
+passlib[bcrypt]
+python-jose[cryptohraphy]
+uvicorn[standard]
+psycopg2==2.9.5
+
+# start enviromment = source .env/bin/activate
+# install = pip install -r requirements.txt
+# run dev = uvicorn main:app --reload
